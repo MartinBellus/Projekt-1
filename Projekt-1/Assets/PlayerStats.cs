@@ -6,13 +6,8 @@ public class PlayerStats : MonoBehaviour {
 
     public int coins = 0;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void AddCoins(int amout)
+    {
+        coins += coins;
+    } 
 }

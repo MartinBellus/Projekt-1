@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 65187693741385158}
   m_Layer: 0
   m_Name: Object
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Moving
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 114151763816318354}
   m_Layer: 0
   m_Name: MovingObject
-  m_TagString: Untagged
+  m_TagString: Moving
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
