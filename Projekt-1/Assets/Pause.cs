@@ -23,24 +23,24 @@ public class Pause : MonoBehaviour {
     private void ShowPauseMenu()
     {
         if (pauseMenu)
-        {
-            pauseMenu = false;
-            pause.SetActive(false);
+        {         
             ContinueGame();
         } else
-        {
-            pauseMenu = true;
-            pause.SetActive(true);
+        {    
             PauseGame();
         }
     }
 
     private void PauseGame()
     {
+        pauseMenu = true;
+        pause.SetActive(true);
         Time.timeScale = 0;
     }
-    private void ContinueGame()
+    public void ContinueGame()
     {
+        pauseMenu = false;
+        pause.SetActive(false);
         Time.timeScale = 1;
     }
 }

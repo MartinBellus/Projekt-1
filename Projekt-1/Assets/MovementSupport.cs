@@ -24,7 +24,7 @@ public class MovementSupport : MonoBehaviour {
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("MovingSolid") || other.CompareTag("Solid"))
-        {
+        {           
             m.Colliding(gameObject.name, false, other);
             Debug.Log("Trig! <<");
         }

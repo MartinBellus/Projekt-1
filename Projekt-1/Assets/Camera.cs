@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour {
 
-    public float cameraSpeed = 10f;
+    public float cameraSpeed = 20f;
 
 	void Update () {
-        UnityEngine.Camera.main.transform.position = Vector3.Lerp(UnityEngine.Camera.main.transform.position, transform.position + Vector3.up*2 + Vector3.back*10, Time.deltaTime * cameraSpeed); 
+        UnityEngine.Camera.main.transform.position = Vector3.Lerp(UnityEngine.Camera.main.transform.position, transform.position + Vector3.up*4 + Vector3.back*4, Time.deltaTime * cameraSpeed); 
 	}
 }

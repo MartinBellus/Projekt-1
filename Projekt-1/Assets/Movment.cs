@@ -73,7 +73,8 @@ public class Movment : MonoBehaviour {
                 up = true;
             }
             else if (direction == "Feet")
-            {                
+            {
+                grounded = true;
                 if (other.gameObject.tag == "Moving" || other.gameObject.tag == "MovingSolid")
                 {
                     Debug.Log("TRIGGERED !!!!");
